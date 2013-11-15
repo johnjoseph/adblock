@@ -6,6 +6,7 @@
 % amssymb package, useful for mathematical symbols
 \usepackage{amssymb}
 
+\usepackage{url} %for proper url entries
 
 % cite package, to clean up citations in the main text. Do not remove.
 \usepackage{cite}
@@ -54,28 +55,34 @@
 % Title must be 150 characters or less
 \begin{center}
 \begin{Huge}
-Browser Trojan \linebreak
+\textbf{Browser Trojan} \linebreak
 \end{Huge}
-Computer Security \linebreak
- John P Joseph 
- B100119CS
 
-
-
+ John P Joseph, L Ashwin, Sharath Hari N,\linebreak
+ Mohammed Faris P K, Nijesh K U, Sudev A C \linebreak
+\begin{small}
+ National Institute of Technology, Calicut 
+\end{small}
 \end{center}
 
 
 \section*{Abstract}
-An extension modifies the interface and/or behaviour of a web browser.Many extensions has been downloaded and used by users to enhance browsing experience, we in this report would like to discuss the method we applied to harnessed the security loopholes in popular extensions to gain knowledge over users private data.
+An extension modifies the interface and/or behaviour of a web browser.Many extensions has been downloaded and used by users to enhance browsing experience, we in this report would like to discuss the method we applied to harness the security loopholes in popular extensions to gain knowledge over users private data  without his knowledge.
 
-\section*{Objective Accomplished}
-\subsection*{Chromium Browser}
-asdhfjk hjkashdfkj ahskjldfh lakjsh dsklfjh aljshdf jlkashdjfh ajlsdhflj sadhfj hasdjfh jashvj kla
+\section*{Objective}
+Track a user's browser activities and steal user credentials.
+\section*{Work Done}
+Studied the working structure of a popular extension and identified the possible user private data that could be retrieved using browser API features. Modified the source code of the identified extension to perform malicious activities without compromising it's existing features. A remote server was set up to capture data collected from users. Users were identified distinctly using their IP address.
 
-\subsection*{Mozilla Firefox}
-dshfg hjkasdflg lkjashfkjdlshjk ahsjdkfhajkshdlsdjkfh lasdhfjhasdfjhsa fj jhsadjfh sjadfhj;lsadfh 
-\section*{Conclusion}
- vchsakjdfasjdf kjhsdjfklhjhguihiutoehgupiughqe fjefv7dfhvjnejguyhtngjnhvhnbhhnbg
+%\phantomsection
+
+\begin{thebibliography}{99}
+
+\bibitem CChrome Extensions\\ \url {http://developer.chrome.com/extensions/index.html}
+\bibitem MMozilla Addons \\ \url {https://addons.mozilla.org}
+\bibitem JJquery \\ \url {http://jquery.com/}
+\end{thebibliography}
+
 
 \end{document}
 
