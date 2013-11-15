@@ -1,0 +1,114 @@
+\documentclass{beamer}
+\usetheme{default}
+\setbeamertemplate{blocks}[rounded][shadow=true]
+\usepackage{listings}
+\lstset{language=C++,
+           basicstyle=\ttfamily,
+           keywordstyle=\color{blue}\ttfamily,
+           stringstyle=\color{red}\ttfamily,
+           commentstyle=\color{green}\ttfamily
+          }
+
+%Footlines 
+\usepackage{url} %for proper url entries
+\useoutertheme{infolines}
+\author{Sudev A C} 
+\title{Bitcoin} 
+\institute{NIT Calicut} 
+%Titile Page 
+\title[Computer Security]{Computer Security}
+\subtitle[Browser Trojan]{Browser Trojan}
+\author[John P Joseph]{John P Joseph}
+\institute[NITC]{
+  Department of Computer Science\\
+  National Institute of Technology Calicut\\[1ex]
+% \href{mailto:sudevdev@gmail.com}{sudevdev@gmail.com}
+}
+\date[November 2013]{November 13, 2013}
+
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+\begin{document}
+
+
+
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+\begin{frame}{Lets start!}
+\begin{Huge}
+Browser Trojan \linebreak \linebreak
+\end{Huge}
+
+An extension modifies the interface and/or behaviour of a web browser.Many extensions has been downloaded and used by users to enhance browsing experience.
+\end{frame}
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+\begin{frame}{Objective}
+\begin{itemize}
+\item To insert malicious code into a existing popular extension.
+\item The malicious code should gain knowledge of users private data without his/her knowledge.
+\item The knowledge attained should be transferred to a remote server.
+\item If user attempts to disable the extension the malicious code should enable another extension of similar behaviour.
+\end{itemize}
+
+\end{frame}
+
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+%$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+\begin{frame}{You don't believe us?}
+\begin{itemize}
+\item Fire your browser.
+\item Login into to facebook account.
+\item Act normal even if I write your password on the white board.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+Reference 
+\begin{thebibliography}{99}
+
+\bibitem{chdos}Original Paper by Satoshi Nakamoto\\ \begin{tiny}
+  \url{http://bitcoin.org/bitcoin.pdf}
+\end{tiny}
+
+\bibitem{astimme}A good article\\ \begin{tiny}
+ \url{http://www.investopedia.com/articles/investing/072913/how-bitcoin-works.asp}
+\end{tiny}
+
+\bibitem KKhan Academy Video Lecture\\ \begin{tiny}
+  \url{https://www.khanacademy.org/economics-finance-domain/core-finance/money-and-banking/bitcoin/v/bitcoin-what-is-it}
+\end{tiny}
+
+
+\bibitem{astimme}Bitcoin Wiki\\ \begin{tiny}
+ \url{https://en.bitcoin.it/wiki/Main_Page}
+\end{tiny}
+
+
+\bibitem{inode}Video clips\\ \begin{tiny}
+ \url {http://www.youtube.com/watch?v=Um63OQz3bjo}\linebreak
+ \url {http://www.youtube.com/watch?v=GmOzih6I1zs}
+\end{tiny}
+\bibitem{inode}Bitcoin real time analysis\\ \begin{tiny}
+ \url {https://blockchain.info/}
+\end{tiny}
+\end{thebibliography}
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\begin{center}
+\begin{huge}
+thank you!
+\end{huge}
+\end{center}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
